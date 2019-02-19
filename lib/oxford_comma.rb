@@ -10,7 +10,7 @@ def oxford_comma(array)
     return str
   else
     array.each do |ele|
-      if ele == arr[-1]
+      if ele == array[-1]
         str << "and #{ele}"
         return str
       end
