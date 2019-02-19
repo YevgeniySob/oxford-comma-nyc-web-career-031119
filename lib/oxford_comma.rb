@@ -5,5 +5,7 @@ def oxford_comma(array)
   elsif array.size == 2
     str = array[0] + " and " + array[1]
     return str
+    elsif array.size == 3
+    str = array[0] + ", " + array[1] + ", and " + array[2]
   end
 end
