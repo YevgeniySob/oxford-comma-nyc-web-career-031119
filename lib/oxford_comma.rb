@@ -9,7 +9,7 @@ def oxford_comma(array)
     str = array[0] + ", " + array[1] + ", and " + array[2]
     return str
   else
-    arr.each do |ele|
+    array.each do |ele|
       if ele == arr[-1]
         str << "and #{ele}"
         return str
