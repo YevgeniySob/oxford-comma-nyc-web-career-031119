@@ -14,7 +14,7 @@ def oxford_comma(array)
         str << "and #{ele}"
         return str
       end
-      str << "#{ele} , "
+      str << "#{ele}, "
     end
     return str
   end
