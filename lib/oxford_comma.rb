@@ -11,10 +11,10 @@ def oxford_comma(array)
   else
     arr.each do |ele|
       if ele == arr[-1]
-        str << "and " << ele
+        str << "and #{ele}"
         return str
       end
-      str << ele << ", "
+      str << "#{ele} , "
     end
     return str
   end
